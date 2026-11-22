@@ -1,0 +1,9 @@
+# Literal "~" in defaults is intentional: conf_path expands it after config lookup.
+disable=SC2088
+# Table formats are built from colour codes that never contain user input.
+disable=SC2059
+# Single-character comparisons with '\' in the config reader are intended.
+disable=SC1003
+# "test && ok || fail" is the assertion idiom in tests; ok never fails.
+disable=SC2015
+source-path=SCRIPTDIR
